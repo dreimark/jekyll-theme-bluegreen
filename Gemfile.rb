@@ -1,0 +1,25 @@
+source "https://rubygems.org"
+
+gem "jekyll", "4.3.4"
+gem "minimal-mistakes-jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-gist"
+gem "jekyll-include-cache"
+gem "jekyll-seo-tag"
+gem "jekyll-archives"
+gem "jekyll-assets"
+gem "jekyll-redirect-from"
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-gist"
+  gem "jekyll-include-cache"
+  gem "jekyll-seo-tag"
+  gem "jekyll-archives"
+  gem "jekyll-assets"
+  gem "jekyll-redirect-from"
+end
